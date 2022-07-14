@@ -1,0 +1,19 @@
+.container {
+    margin: auto;
+    border: solid black 2px;
+    padding-top:25px;
+    margin-top:25px;
+    width: 500px;
+}
+
+#wrapper {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+    color: gray;
+}
